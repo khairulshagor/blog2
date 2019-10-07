@@ -30,8 +30,7 @@ $factory->define(User::class, function (Faker $faker) {
 
 $factory->define(Category::class, function (Faker $faker) {
     return [
-        'cat_name' => $faker->word,
-
+        'cat_name' => $faker->word
     ];
 });
 
